@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="client:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/client_jar</output-path>
+    <root id="archive" name="CNProject.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/client/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="CNProject" />
+      <element id="library" level="project" name="jackson-core-2.8.1" />
+    </root>
+  </artifact>
+</component>
